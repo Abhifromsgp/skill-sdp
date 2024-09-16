@@ -36,15 +36,15 @@ use NIE;
 
 create table student(id int primary key,Fname varchar(20),Lname varchar(40),Branch char(2));
 
-insert into student values(01,"Bhairav","Deekshith",'CS');
+insert into student values(01,"Abhishek","narthan",'CS');
 
-insert into student values(02,"Nathen","Drake",'CS');
+insert into student values(02,"tony","stark",'CS');
 insert into student values(03,"Hello","world",'IS');
 insert into student values(04,"New","DAy",'ES');
-insert into student values(05,"Darshan","Kumar",'CS');
+insert into student values(05,"sudeep","eega",'CS');
 insert into student values(06,"Akash","Gowda",'CS');
-insert into student values(07,"Sankalp","Nayak",'CS');
-insert into student values(08,"Girish","Samson",'CS');
+insert into student values(07,"bean","tom",'CS');
+insert into student values(08,"shivu","chandu",'CS');
 
 select * from student;
 
@@ -71,15 +71,15 @@ insert into department values(008,"LSE");
 
 create table student1(Reg_No int primary key,Sname varchar(20),dept_id int,foreign key(dept_id) references department(id));
 
-insert into student1 values(01,"Bhairav",001);
+insert into student1 values(01,"Abhishek",001);
 
-insert into student1 values(02,"Nathen",002);
+insert into student1 values(02,"tony",002);
 insert into student1 values(03,"Hello",003);
 insert into student1 values(04,"New",004);
-insert into student1 values(05,"Darshan",005);
+insert into student1 values(05,"sudeep",005);
 insert into student1 values(06,"Akash",006);
-insert into student1 values(07,"Sankalp",007);
-insert into student1 values(08,"Girish",008); 
+insert into student1 values(07,"shivu",007);
+insert into student1 values(08,"chandu",008); 
 
 select * from student1;
 select * from department;
